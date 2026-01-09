@@ -56,7 +56,7 @@ output is usuall hexadecimal
     */
     printf("Local address: %p\n", (void*)&local_var);
     //creats local_var stack
-    printf("Heap adress: %p\n", (void*)heap_var);
+    printf("Heap address: %p\n", (void*)heap_var);
     //The address of the heap memory block. This is the address returned by malloc.
     printf("Heap value: %d\n", *heap_var);
     //The integer stored in heap memory (*heap_var = 99;)
